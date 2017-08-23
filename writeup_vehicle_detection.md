@@ -19,6 +19,12 @@ The goals / steps of this project are the following:
 
 You're reading it!
 
+References:
+
+- Self Driving Car nanodegree lessons and quizzes
+
+- Udacity Vehicle Detection and Tracking Q&A Video on YouTube
+
 ### Histogram of Oriented Gradients (HOG)
 
 #### 1. Explain how (and identify where in your code) you extracted HOG features from the training images.
