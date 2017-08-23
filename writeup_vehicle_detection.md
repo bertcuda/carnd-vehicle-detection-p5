@@ -27,14 +27,14 @@ The code for this step is contained in the first code cell of the IPython notebo
 
 I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
 
-![Vehicle](./run1/output_images/image0036.png)
-![Non-Vehicle](./run1/output_images/extra17.png)
+![Vehicle](./output_images/image0036.png)
+![Non-Vehicle](./output_images/extra17.png)
 
 I then explored different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.
 
 Here is an example using the `YCrCb` color space and HOG parameters of `orientations=9`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
 
-![HOG Parameters](./run1/output_images/car-notcar-hog.png)
+![HOG Parameters](./output_images/car-notcar-hog.png)
 
 
 #### 2. Explain how you settled on your final choice of HOG parameters.
